@@ -1,0 +1,29 @@
+{
+  "fluid_transfer": [
+    "Transfer fluid via the syringe on the lab table."
+  ],
+  "pencil_insertion": [
+    "Insert wooden pencil into sharpener on table."
+  ],
+  "test_tube_collection": [
+    "Pick up test tubes and put them in the rack."
+  ],
+  "whiteboard_erasing": [
+    "Wipe the whiteboard to erase all text."
+  ],
+  "hex_key_insertion": [
+    "Insert hex key into the block."
+  ],
+  "moving_cup": [
+    "Move the cup from left to right."
+  ],
+  "moving_tape": [
+    "Move the tape from left to right."
+  ],
+  "peg_insertion": [
+    "Insert the peg into the white hole."
+  ],
+  "tossing": [
+    "Toss the black stick up."
+  ]
+}

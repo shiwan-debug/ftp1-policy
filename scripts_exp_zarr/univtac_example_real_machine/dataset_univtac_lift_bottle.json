@@ -1,0 +1,12 @@
+{
+  "datasets": [
+    {
+      "name": "UniVTAC_lift_bottle",
+      "path": "/cephfs/shared/yuanchengbo/rtac1_cache/data/UniVTAC/lift_bottle",
+      "use_trajectory_ratio": 1.0,
+      "enabled": true
+    }
+  ],
+  "default_use_trajectory_ratio": 1.0,
+  "description": "Auto-generated per-task dataset config for UniVTAC FTP1 training."
+}

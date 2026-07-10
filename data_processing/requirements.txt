@@ -1,0 +1,16 @@
+h5py
+numpy==1.23.5
+scipy
+opencv-python
+pandas
+pyyaml
+click
+zarr
+numcodecs
+viser
+open3d
+mediapipe
+imagecodecs-numcodecs
+torch
+markdown
+reportlab

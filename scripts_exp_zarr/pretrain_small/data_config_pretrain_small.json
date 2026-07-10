@@ -1,0 +1,18 @@
+{
+  "datasets": [
+    {
+      "name": "DatasetA",
+      "path": "/path/to/processed_dataset_a",
+      "use_trajectory_ratio": 1.0,
+      "enabled": true
+    },
+    {
+      "name": "DatasetB",
+      "path": "/path/to/processed_dataset_b",
+      "use_trajectory_ratio": 1.0,
+      "enabled": false
+    }
+  ],
+  "default_use_trajectory_ratio": 1.0,
+  "description": "Minimal public pretraining config. Add or remove datasets as needed and point each path to a parsed zarr directory."
+}

@@ -1,0 +1,13 @@
+data
+data_htc
+data_raw
+output*
+__pycache__
+*.mp4
+.vscode/
+*.pyc
+assets/sharpa
+parse_data_module/parse_data_sharpa
+
+checkpoints
+wandb
