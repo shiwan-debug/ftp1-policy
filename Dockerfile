@@ -25,6 +25,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libglib2.0-0 \
     ninja-build \
     pkg-config \
+    linux-headers-generic \
+    python3-dev \
+    libusb-1.0-0-dev \
     && curl -LsSf https://astral.sh/uv/install.sh | sh \
     && mv /root/.local/bin/uv /usr/local/bin/uv \
     && uv python install ${PYTHON_VERSION} \
@@ -48,7 +51,7 @@ COPY scripts/ scripts/
 COPY scripts_exp_zarr/ scripts_exp_zarr/
 COPY assets/ assets/
 COPY data_processing/ data_processing/
-RUN uv sync --no-cache || uv sync --no-cache
+RUN uv sync --no-cache
 
 # ---- Directories ----
 RUN mkdir -p /openpi/checkpoints /openpi/data /openpi/output
