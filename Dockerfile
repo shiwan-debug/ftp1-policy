@@ -48,7 +48,7 @@ COPY scripts/ scripts/
 COPY scripts_exp_zarr/ scripts_exp_zarr/
 COPY assets/ assets/
 COPY data_processing/ data_processing/
-RUN uv sync --locked --no-cache
+RUN uv sync --no-cache || uv sync --no-cache
 
 # ---- Directories ----
 RUN mkdir -p /openpi/checkpoints /openpi/data /openpi/output
