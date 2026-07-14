@@ -48,8 +48,6 @@ COPY scripts/ scripts/
 COPY scripts_exp_zarr/ scripts_exp_zarr/
 COPY assets/ assets/
 COPY data_processing/ data_processing/
-COPY examples/ examples/
-
 RUN uv sync --locked --no-cache
 
 # ---- Directories ----
